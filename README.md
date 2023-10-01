@@ -7,7 +7,7 @@ This is a simple Optical Character Recognition (OCR) app built using Next.js. Us
 1. **Clone the Repository:**
 
    ```bash
-   git clone [<repository-url>](https://github.com/ihtesham-jahangir/Image-to-text-Nextjs-ocr-project)
+   git clone https://github.com/ihtesham-jahangir/Image-to-text-Nextjs-ocr-project
    cd ocr-app
 **Install Dependencies:**
 
@@ -54,6 +54,14 @@ Feel free to customize the app according to your needs. You can modify styles, a
 Contributions are welcome! Please create an issue or pull request for any improvements or bug fixes.
 
 **License**
-This project is licensed under the MIT License 
+This project is licensed under the MIT License.
 
-You can copy and paste this text into your README.md file. Remember to replace `[<repository-url>](https://github.com/ihtesham-jahangir/Image-to-text-Nextjs-ocr-project)` with the actual URL of your repository.
+Copyright <YEAR> <COPYRIGHT HOLDER>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+You can copy and paste this text into your README.md file. Remember to replace `https://github.com/ihtesham-jahangir/Image-to-text-Nextjs-ocr-project` with the actual URL of your repository.
