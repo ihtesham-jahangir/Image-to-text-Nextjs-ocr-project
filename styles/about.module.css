@@ -1,0 +1,14 @@
+/* about.module.css */
+.about_container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about_text {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+  }
+  

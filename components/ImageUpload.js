@@ -31,7 +31,7 @@ const ImageUpload = () => {
         {({ getRootProps, getInputProps }) => (
           <div {...getRootProps()} className={styles.dropzone}>
             <input {...getInputProps()} />
-            <p>Drag 'n' drop an image here, or click to select an image</p>
+            <p className={styles.p_image}>Drag and drop an image here, or click to select an image</p>
           </div>
         )}
       </Dropzone>

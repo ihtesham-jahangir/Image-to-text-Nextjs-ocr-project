@@ -1,0 +1,13 @@
+/* contact.module.css */
+.contact_container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact_info {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
