@@ -7,7 +7,7 @@ This is a simple Optical Character Recognition (OCR) app built using Next.js. Us
 1. **Clone the Repository:**
 
    ```bash
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/ihtesham-jahangir/Image-to-text-Nextjs-ocr-project)
    cd ocr-app
 **Install Dependencies:**
 
@@ -56,4 +56,4 @@ Contributions are welcome! Please create an issue or pull request for any improv
 **License**
 This project is licensed under the MIT License 
 
-You can copy and paste this text into your README.md file. Remember to replace `<repository-url>` with the actual URL of your repository.
+You can copy and paste this text into your README.md file. Remember to replace `[<repository-url>](https://github.com/ihtesham-jahangir/Image-to-text-Nextjs-ocr-project)` with the actual URL of your repository.
