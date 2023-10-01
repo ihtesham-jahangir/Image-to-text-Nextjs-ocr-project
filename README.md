@@ -8,7 +8,7 @@ This is a simple Optical Character Recognition (OCR) app built using Next.js. Us
 
    ```bash
    git clone https://github.com/ihtesham-jahangir/Image-to-text-Nextjs-ocr-project
-   cd ocr-app
+   cd [project-name]
 **Install Dependencies:**
 
 **bash**
@@ -19,10 +19,10 @@ Run the App:
 **bash**
 
 npm run dev
-Open http://localhost:3000 in your browser.
+Open [http://localhost:3000](url) in your browser.
 
 **If Any Error Occur Follow this steps**
-- Dowload and install Tesseract OCR from 
+- Dowload and install Tesseract OCR from this Link [https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-5.3.1.20230401.exe](url)
 - set the path of tesseract.exe in the environment variable
 - Restart your system
 - Run the app again
@@ -56,7 +56,7 @@ Contributions are welcome! Please create an issue or pull request for any improv
 **License**
 This project is licensed under the MIT License.
 
-Copyright <YEAR> <COPYRIGHT HOLDER>
+Copyright <2023> <COPYRIGHT ihtesham jahangir>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
