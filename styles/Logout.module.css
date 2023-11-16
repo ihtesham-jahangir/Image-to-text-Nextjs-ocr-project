@@ -1,0 +1,20 @@
+/* styles/Logout.module.css */
+.logoutContainer {
+    text-align: center;
+    background-color:#b7babb;
+  }
+  
+  .logoutContent {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .logoutHeading {
+    font-size: 2em;
+  }
+  
+  .logoutMessage {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  

@@ -1,55 +1,60 @@
 /* Navbar.module.css */
+
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: #333;
-    color: #fff;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #b7babb;
+  height: 150px;
   
-  .logo a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.5rem;
-    
-  }
-  
-  .menu a {
-    margin-right: 1rem;
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .menu a:hover {
-    text-decoration: underline;
-  }
-  
-  .mobileMenuIcon {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-  }
-  
-  @media (max-width: 768px) {
-    .menu {
-      display: none;
-      flex-direction: column;
-    }
-  
-    .menu.show {
-      display: flex;
-    }
-  
-    .mobileMenuIcon {
-      display: flex;
-    }
-  
-    .mobileMenuIcon span {
-      width: 25px;
-      height: 3px;
-      background-color: #fff;
-      margin: 5px 0;
-    }
-  }
-  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+
+.logoImage {
+  width: 100px; /* Adjust the size as needed */
+  height: 100px;
+  margin-right: 10px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu a {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu a:hover
+{
+  text-decoration: underline;
+}
+.searchBar {
+  display: flex;
+  align-items: center;
+}
+
+.searchBar input {
+  padding: 8px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 3px;
+}
+
+.searchBar button {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}

@@ -1,0 +1,140 @@
+/* styles/RegistrationForm.css */
+
+.container {
+    display: block;
+    max-width: 80%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    margin-left: 7%;
+    margin-right: -1%;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+
+  .passwordToggle
+  {
+    
+    border: none;
+    margin-left: -30px;
+   margin-top: 8px;
+  }
+  .h1
+  {
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 80px;
+  }
+  .main {
+    display: block;
+    background-color: #bbb7b7;
+    
+  }
+
+  .p_text
+  {
+    margin-top: 2%;
+    display: block;
+    margin-left: -48%;
+    margin-bottom: 2%;
+  }
+  .p_login
+  {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+ .error {
+    background-color: #ffe4e4;
+    border: 1px solid #ff9999;
+    color: #ff3333;
+    padding: 10px;
+    margin-top: 21px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-right: 73px;
+}
+  .p_login:hover
+  {
+    text-decoration: underline;
+    color: black;
+  }
+  .logo {
+    max-width: 150px; 
+    margin-left: -55px;
+    margin-bottom: -14%;
+    display: flex;
+  }
+  .label {
+    display: flex;
+    margin-left: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  .label1
+  {
+    
+    margin-left: -65%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .input3{
+    width: 19%;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    margin-top: 10px;
+   
+  }
+  .input {
+    display: block;
+    width: 20%;
+    padding: 8px;
+    margin-bottom: 2px;
+    margin-left: 20px;
+    
+  }
+
+.register_pic {
+display: block;
+ max-width: 500px;
+ max-height: 500px;
+ margin-bottom: -45%;
+ margin-left: 50%;
+
+  }
+  
+.p_register
+{
+    margin-left: -50%;
+}
+  
+  .input1{
+    width: 20%;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-left: 55px;
+    
+  }
+  .button {
+    background-color: #45a049;
+    color: white;
+    font-size: 12px;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -50%;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .button:hover {
+    
+    background-color: #a7ada8;
+  }
+  

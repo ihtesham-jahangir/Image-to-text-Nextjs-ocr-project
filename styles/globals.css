@@ -1,0 +1,8 @@
+/* styles/global.css */
+
+body {
+    background-color: #4caf50; /* Set your desired background color here */
+    margin: 0; /* Remove default margin to ensure full-page coverage */
+    padding: 0; /* Remove default padding */
+  }
+  

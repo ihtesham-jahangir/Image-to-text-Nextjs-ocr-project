@@ -1,23 +1,29 @@
-// ImageUpload.js
 import React, { useState } from 'react';
 import Dropzone from 'react-dropzone';
+import { WaveLoading } from 'react-loadingg';
+import styles from '../styles/ImageUpload.module.css';
 import Tesseract from 'tesseract.js';
-import styles from '../styles/styles.module.css';
 
-const ImageUpload = () => {
+const ImageUpload = ({ onTextExtracted }) => {
   const [image, setImage] = useState(null);
-  const [extractedText, setExtractedText] = useState('');
   const [processing, setProcessing] = useState(false);
 
   const handleDrop = async (acceptedFiles) => {
     const file = acceptedFiles[0];
     setImage(URL.createObjectURL(file));
-
     setProcessing(true);
 
     try {
-      const { data: { text } } = await Tesseract.recognize(file, 'eng');
-      setExtractedText(text);
+      const { data: { text } } = await Tesseract.recognize(
+        file,
+        'eng', // List of languages
+        {
+          logger: (info) => console.log(info),
+        }
+      );
+
+      console.log('OCR Result:', text);
+      onTextExtracted(text);
     } catch (error) {
       console.error('Error during OCR:', error);
     } finally {
@@ -31,18 +37,13 @@ const ImageUpload = () => {
         {({ getRootProps, getInputProps }) => (
           <div {...getRootProps()} className={styles.dropzone}>
             <input {...getInputProps()} />
-            <p className={styles.p_image}>Drag and drop an image here, or click to select an image</p>
+            <p>Browse & Drag and Drop Your Test Paper Here!!!</p>
+            <img src="/upload.png" alt="Upload" className={styles.uploadIcon} />
           </div>
         )}
       </Dropzone>
       {image && <img src={image} alt="Uploaded" className={styles.image} />}
-      <textarea
-        value={extractedText}
-        placeholder="Extracted Text"
-        className={styles.textarea}
-        readOnly
-      />
-      {processing && <p>Processing...</p>}
+      {processing && <WaveLoading />}
     </div>
   );
 };

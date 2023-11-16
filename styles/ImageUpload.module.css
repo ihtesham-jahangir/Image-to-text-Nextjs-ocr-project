@@ -1,0 +1,34 @@
+/* styles/ImageUpload.module.css */
+.container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dropzone {
+    border: 2px dashed black;
+    border-radius: 4px;
+    padding: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .image {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  
+  .textarea {
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    resize: none;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Add these styles for the progress bar */
+  .rpl-progress-container {
+    margin-top: 20px;
+  }
+  

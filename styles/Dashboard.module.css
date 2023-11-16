@@ -1,0 +1,26 @@
+/* styles/Dashboard.module.css */
+.dashboardContainer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .dashboardHeading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .info {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .logoutButton {
+    padding: 10px 20px;
+    background-color: #ff6347; /* Tomato color */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  

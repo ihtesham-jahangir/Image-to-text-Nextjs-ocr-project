@@ -1,0 +1,81 @@
+/* Login.module.css */
+
+.loginContainer {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  .loginHeading {
+    text-align: center;
+    color: #333;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .login_main
+  {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #bbb7b7;
+  }
+  .input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  .button {
+    background-color: #45a049;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .login_logo
+  {
+    max-width: 150px; 
+    display: flex;
+    margin-top: -15%;
+    margin-left: 25%;
+    margin-bottom: -20%;
+  }
+  .button:hover {
+    background-color: #a7ada8;
+  }
+  
+  .error {
+    background-color: #ffe4e4;
+    border: 1px solid #ff9999;
+    color: #ff3333;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .registertxt
+  {
+    display: block;
+    margin-top: 10%;
+    text-align: center;
+    text-decoration:  none;
+    color: black;
+  }
+  .registertxt:hover{
+
+    text-decoration: underline;
+    }
