@@ -4,10 +4,22 @@
     import styles from '../styles/styles.module.css'; // Import your CSS file
     import Navbar from '../components/Navbar';
     import Footer from '../components/footer'
+    import { pdf } from '@react-pdf/renderer';
+    import PdfDocument from './PdfDocument'; 
     const MainPage = () => {
     const [extractedText, setExtractedText] = useState('');
     const [openAIResult, setOpenAIResult] = useState('');
-
+    const downloadPdf = async () => {
+        const blob = await pdf(<PdfDocument text={openAIResult} />).toBlob();
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = 'test-result.pdf';
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+        URL.revokeObjectURL(url);
+      };
     const handleTextExtracted = (text) => {
         setExtractedText(text);
     };
@@ -88,8 +100,8 @@
                 readOnly
                 className={styles.textarea}
             />
-            <button onClick={handleGeneratePrompt} className={styles.button_container}>Evalute Test Paper</button>
-           
+            <button onClick={handleGeneratePrompt} className={styles.button_container}>Evalute Test Paper</button><br />
+            <button onClick={downloadPdf} className={styles.button_container}>Download Result as PDF</button>
             </div>
         </div>  
         <Footer />
